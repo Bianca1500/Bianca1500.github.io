@@ -1,2 +1,30 @@
-<h1>Seja bem vindo</h1>
-<p>Óia só isso <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<body>
+	<nav>
+		<ul>
+			<li>
+				<a>Origem</a>
+			</li>
+			<li>
+				<a>Comportamento</a>
+			</li>
+			<li>
+				<a>Saúde</a>
+			</li>
+			<li>
+				<a>Aparência física</a>
+			</li>
+			<li>
+				<a>Preço</a>
+			</li>
+			<li>
+				<a>Raças semelhantes</a>
+			</li>
+		</ul>
+	</nav>
+</body>
+
+<style>
+	body {
+		background-color: aqua;
+	}
+</style>

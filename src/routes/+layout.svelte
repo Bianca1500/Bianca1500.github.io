@@ -1,26 +1,31 @@
+<script>
+	let { children } = $props();
+</script>
+
 <body>
 	<nav calss="navbar">
 		<ul>
 			<li>
-				<a href="/Origem">Origem</a>
+				<a href="/">Origem</a>
 			</li>
 			<li>
 				<a href="/Comportamento">Comportamento</a>
 			</li>
 			<li>
-				<a href="#">Saúde</a>
+				<a href="/Saúde">Saúde</a>
 			</li>
 			<li>
-				<a href="#">Aparência física</a>
+				<a href="/Aparência física">Aparência física</a>
 			</li>
 			<li>
-				<a href="#">Preço</a>
+				<a href="/Preço">Preço</a>
 			</li>
 			<li>
-				<a href="#">Raças semelhantes</a>
+				<a href="/Raças semelhantes">Raças semelhantes</a>
 			</li>
 		</ul>
 	</nav>
+
 
 </body>
 
@@ -28,6 +33,7 @@
 
 	.navbar{
 		background-color: #37add1;
+		color: #37add1;
 	}
 
 body{
@@ -51,3 +57,5 @@ body{
 	}
 
 </style>
+
+{@render children()}

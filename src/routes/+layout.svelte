@@ -31,15 +31,15 @@
 
 <style>
 
-	.navbar{
-		background-color: #37add1;
-		color: #37add1;
-	}
 
 body{
-	background-color:white;
+	background-color:#37add1;
 	font-family:Arial, Helvetica, sans-serif;
 	margin-right: 20px;
+}
+
+.navbar{
+	background-color: #333;
 }
 
 	ul{
@@ -52,7 +52,7 @@ body{
 	}
 
 	a{
-		color:black;
+		color:white;
 		text-decoration: none;
 	}
 

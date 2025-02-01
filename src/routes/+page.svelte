@@ -76,9 +76,7 @@
 
 	p {
 		color: white;
-		margin: 20px;
-		padding-left: 40px;
-		padding-right: 40px;
+		margin: 30px;
 	}
 
 	.primeiro {

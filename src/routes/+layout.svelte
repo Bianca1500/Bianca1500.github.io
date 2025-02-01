@@ -12,10 +12,10 @@
 				<a href="/Comportamento">Comportamento</a>
 			</li>
 			<li>
-				<a href="/Saúde">Saúde</a>
+				<a href="/Aparência física">Aparência física</a>
 			</li>
 			<li>
-				<a href="/Aparência física">Aparência física</a>
+				<a href="/Saúde">Saúde</a>
 			</li>
 			<li>
 				<a href="/Preço">Preço</a>

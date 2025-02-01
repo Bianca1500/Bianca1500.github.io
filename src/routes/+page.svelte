@@ -54,12 +54,13 @@
 	Brasil.
 </p>
 
+<footer></footer>
+
 <style>
 	.título {
 		color: #fad534;
 		text-align: center;
-		padding-bottom: 30px;
-		padding-top: 30px;
+		padding:20px;
 	}
 
 	img {
@@ -76,10 +77,11 @@
 	p {
 		color: white;
 		margin: 20px;
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 
-    .primeiro{
-        margin-top: 60px;
-    }
-
+	.primeiro {
+		margin-top: 60px;
+	}
 </style>

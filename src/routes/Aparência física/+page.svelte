@@ -30,7 +30,21 @@
 
 		<section>
 			<h3>Características da pelagem</h3>
-			<p>A pelagem do Border Collie tem duas variedades: Moderadamente longa; Curta</p>
+			<p>A pelagem do Border Collie tem duas variedades:</p>
+			<ul>
+				<li>Moderadamente longa;</li>
+				<li>Curta</li>
+			</ul>
+		</section>
+
+		<section>
+			<h3>Cores de Border Collie</h3>
+			<p>
+				O Border Collie apresenta uma grande variação na cor de sua pelagem, sendo a preta com
+				manchas brancas a mais comum. A cor da pelagem pode ser sólida (exceto com predominância
+				branca), bicolor ou tricolor, com variações do castanho e marrom. Veja aqui o documento
+				oficial da CBKC com o padrão da raça.
+			</p>
 		</section>
 	</main>
 </div>
@@ -63,5 +77,9 @@
 
 	.texto {
 		margin: 30px;
+	}
+
+	ul {
+		color: white;
 	}
 </style>

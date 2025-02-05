@@ -24,38 +24,29 @@
 				<a href="/Raças semelhantes">Raças semelhantes</a>
 			</li>
 		</ul>
+		<hr />
 	</nav>
-
-
 </body>
 
+{@render children()}
+
 <style>
+	body {
+		background-color: #37add1;
+		font-family: Arial, Helvetica, sans-serif;
+		margin-right: 20px;
+	}
 
-
-body{
-	background-color:#37add1;
-	font-family:Arial, Helvetica, sans-serif;
-	margin-right: 20px;
-}
-
-.navbar{
-	background-color: #333;
-}
-
-	ul{
-		display:flex;
+	ul {
+		display: flex;
 		justify-content: space-between;
 		list-style-type: none;
 		align-items: center;
 		padding: 16px;
-
 	}
 
-	a{
-		color:white;
+	a {
+		color: white;
 		text-decoration: none;
 	}
-
 </style>
-
-{@render children()}

@@ -1,3 +1,7 @@
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
 <script>
 	let { children } = $props();
 </script>
@@ -26,6 +30,15 @@
 		</ul>
 		<hr />
 	</nav>
+
+	<footer>
+	<hr /> 
+		<h5>Compartilhe este site:</h5>
+		<a><i class="bi bi-whatsapp"></i> Whatsapp  </a>
+		<a><i class="bi bi-facebook"></i> Facebook  </a>
+		<a><i class="bi bi-envelope"></i> e-mail </a>
+		<a><i class="bi bi-twitter"></i> Twitter</a>
+	</footer>
 </body>
 
 {@render children()}
@@ -48,5 +61,9 @@
 	a {
 		color: white;
 		text-decoration: none;
+	}
+
+	h5{
+		color:white;
 	}
 </style>

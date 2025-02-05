@@ -76,6 +76,7 @@
 		color: #fad534;
 		text-align: center;
 		padding: 20px;
+		font-family: 'Pacifico';
 	}
 
 	.texto {

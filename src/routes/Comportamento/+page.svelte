@@ -48,6 +48,7 @@
 		padding: 20px;
 		text-align: center;
         color: #fad534;
+		font-family: 'Pacifico';
 	}
 
 	p {
